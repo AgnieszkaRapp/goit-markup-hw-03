@@ -21,6 +21,7 @@ body {
 .container {
   width: 1200px;
   margin: 0 auto;
+  padding: 0 15px;
 }
 
 .container-header {
@@ -31,7 +32,10 @@ ul p h1 h2 h3 h4 h5 h6 {
   margin: 0;
   padding: 0;
 }
-
+ul {
+  margin: 0;
+  padding: 0;
+}
 .top {
   display: flex;
   height: 80px;
@@ -311,8 +315,7 @@ ul p h1 h2 h3 h4 h5 h6 {
 .portfolio-sections .section:nth-child(2) ul {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
-  row-gap: 30px;
+  gap: 30px;
   padding-left: 0;
   font-size: 0;
 }
